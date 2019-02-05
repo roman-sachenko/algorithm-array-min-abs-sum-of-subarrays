@@ -1,0 +1,21 @@
+{
+  "name": "min_abs_slice_sum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "./node_modules/.bin/eslint  . *.js",
+    "lint:fix": "./node_modules/.bin/eslint  . *.js --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.0.0"
+  }
+}
