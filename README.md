@@ -28,7 +28,7 @@ Description: Tests will be executed for all the solutions
 
 ### Simple and pretty accurate solution
 
-```
+```javascript
 const _getMinAbsSliceSumSimple = (inputArray) => {
   if (!isArrayValid(inputArray)) {
     throw new TypeError('valid array should be provided');
@@ -64,7 +64,7 @@ const _getMinAbsSliceSumSimple = (inputArray) => {
 
 ### Very heavy and CPU consuming, but still accurate
 
-```
+```javascript
 const _getMinAbsSliceSumHeavy = (inputArray) => {
   if (!isArrayValid(inputArray)) {
     throw new TypeError('valid array should be provided');
@@ -95,7 +95,7 @@ const _getMinAbsSliceSumHeavy = (inputArray) => {
 
 ### Kadane solution
 
-```
+```javascript
 const _getMinAbsSliceSumKadane = (inputArray) => {
   if (!isArrayValid(inputArray)) {
     throw new TypeError('valid array should be provided');
